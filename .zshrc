@@ -12,7 +12,7 @@ antigen bundle common-aliases
 antigen bundle zsh-users/zsh-syntax-highlighting 
 antigen bundle zsh-users/zsh-autosuggestions ./zsh-autosuggestions.zsh
 
-antigen theme ys
+antigen theme refined
 
 antigen apply
 
