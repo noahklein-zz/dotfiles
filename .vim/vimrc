@@ -6,10 +6,16 @@ endif
 
 call plug#begin()
 Plug 'tpope/vim-sensible'
+Plug 'NLKNguyen/papercolor-theme'
 Plug 'scrooloose/nerdcommenter'
 call plug#end()
+
+let mapleader=','
+set background=dark
+colorscheme PaperColor
 
 if has('mouse')
 	set mouse=a
 endif
 
+set number relativenumber
